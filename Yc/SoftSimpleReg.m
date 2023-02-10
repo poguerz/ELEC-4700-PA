@@ -41,10 +41,10 @@ mu{1} = ones(nx{1},ny{1})*c_mu_0;
 
 epi{1} = ones(nx{1},ny{1})*c_eps_0;
 
-% epi{1}(50:60,55:95)= c_eps_0*2;     % Added inclusion
-% epi{1}(70:80,55:95)= c_eps_0*4;     % Added inclusion
-% epi{1}(90:100,55:95)= c_eps_0*6;    % Added inclusion
-% epi{1}(110:120,55:95)= c_eps_0*8;   % Added inclusion
+epi{1}(50:60,55:95)= c_eps_0*2;     % Added inclusion
+epi{1}(70:80,55:95)= c_eps_0*4;     % Added inclusion
+epi{1}(90:100,55:95)= c_eps_0*6;    % Added inclusion
+epi{1}(110:120,55:95)= c_eps_0*8;   % Added inclusion
 
 sigma{1} = zeros(nx{1},ny{1});
 sigmaH{1} = zeros(nx{1},ny{1});
